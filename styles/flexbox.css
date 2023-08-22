@@ -1,0 +1,19 @@
+section {
+  margin-top: 1rem;
+}
+section .content-list {
+  display: flex;
+  gap: 2.3rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+section .content-list .box img {
+  min-width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.box:hover img {
+  transform: scale(1.4);
+}

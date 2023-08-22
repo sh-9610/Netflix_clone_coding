@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" type="text/css" href="styles/header.css" />
+    <link rel="stylesheet" type="text/css" href="styles/general.css" />
+    <link rel="stylesheet" type="text/css" href="styles/hotmovie.css" />
+    <link rel="stylesheet" type="text/css" href="styles/flexbox.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <div class="logo">
+          <a href="#"><img src="assets/logo/Nexflix_logo.png" alt="" /></a>
+        </div>
+        <div class="mobile-menu">메뉴</div>
+        <ul class="menu-list">
+          <li>
+            <a href="#">홈</a>
+          </li>
+          <li>
+            <a href="#">시리즈</a>
+          </li>
+          <li>
+            <a href="#">영화</a>
+          </li>
+          <li>
+            <a href="#">NEW! 요즘 대세 콘텐츠</a>
+          </li>
+          <li>
+            <a href="#">내가 찜한 콘텐츠</a>
+          </li>
+        </ul>
+      </div>
+      <div class="right">
+        <div class="icon search">
+          <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="제목, 사람, 장르" />
+          </div>
+        </div>
+        <div class="icon kids">
+          <a href="#">키즈</a>
+        </div>
+        <div class="icon bell">
+          <a href="#"><i class="fa-solid fa-bell"></i></a>
+        </div>
+        <div class="icon profile">
+          <a href="#">
+            <div class="avatar-box"></div>
+            <i class="fa-solid fa-caret-down"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="hot_movie">
+        <img src="assets/image/hot_movie.jpg" class="hot_movie_img" />
+      </div>
+      <div class="description">
+        <h1>종이의 집</h1>
+        <h3>2017 | 청불 | 시즌 5개 | 스릴러</h3>
+        <p>
+          1명의 천재, 8명의 공범, 철저히 준비한 세기의 강도. 스페인 조폐국에서
+          인질극까지 벌인 이들은 과연 포위 경찰을 따돌리고 거액의 돈과 함께
+          달아날 수 있을까?
+        </p>
+        <div class="buttons">
+          <button class="play">
+            <i class="fa-solid fa-play"></i><span>재생</span>
+          </button>
+          <button class="detail">
+            <i class="fa-solid fa-circle-info"></i>상세 정보
+          </button>
+        </div>
+      </div>
+      <div class="age-info">
+        <i class="fa-solid fa-rotate-right"></i>
+        <div class="age">15+</div>
+      </div>
+    </main>
+    <section>
+      <h1>애니메이션</h1>
+      <div class="content-list">
+        <div class="box">
+          <img src="assets/image/content_01.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/content_02.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/content_03.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/content_04.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/content_05.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/content_06.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/content_07.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/content_14.jpg" class="content-list_img" />
+        </div>
+      </div>
+      <h1>시리즈</h1>
+      <div class="content-list">
+        <div class="box">
+          <img src="assets/image/content_08.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/content_09.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/content_10.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/content_11.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/content_12.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/content_13.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/content_03.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/content_15.jpg" class="content-list_img" />
+        </div>
+      </div>
+      <h1>한국</h1>
+      <div class="content-list">
+        <div class="box">
+          <img src="assets/image/korea_01.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/korea_02.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/korea_03.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/korea_04.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/korea_05.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/korea_06.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/korea_07.jpg" class="content-list_img" />
+        </div>
+        <div class="box">
+          <img src="assets/image/korea_08.jpg" class="content-list_img" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
